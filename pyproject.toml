@@ -1,7 +1,12 @@
 [project]
 name = "mcp-hello"
 version = "0.1.0"
-description = "Add your description here"
+description = "Minimal MCP hello server"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "anyio>=4",
+]
+
+[project.scripts]
+mcp-hello = "mcp_hello.cli:main"

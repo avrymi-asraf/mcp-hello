@@ -6,36 +6,24 @@ This is a simple implementation of a Model Context Protocol (MCP) server for lea
 
 1. Create a minimal, easy-to-understand MCP server implementation
 2. Demonstrate basic MCP server functionality
-3. Keep it simple - use only Python standard library
-4. No complex dependencies or tooling required
+3. Publish the package to PyPI test repository
+4. Utilize `uv` for Python package management where applicable
 
 ## Usage
 
 The package can be run using:
 
 ```bash
-python main.py
-```
-
-Or after installation:
-
-```bash
-pip install .
-mcp-hello
+uvx mcp-hello
 ```
 
 ## Development
 
-This project uses only the Python standard library:
-- No external dependencies
-- Simple synchronous code
-- Built-in unittest for testing
+This project uses modern Python tooling:
+- `uv` for dependency management and virtual environments
+- PyPI test repository for package distribution
 
 ## Installation
 
-Install with pip:
-
-```bash
-pip install .
-```
+The package will be available on PyPI test repository for installation.
 

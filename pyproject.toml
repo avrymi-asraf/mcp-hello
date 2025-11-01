@@ -1,10 +1,10 @@
 [project]
-name = "mcp-hello"
-version = "0.1.0"
+name = "mcp-hello-world"
+version = "0.1.4"
 description = "Minimal MCP hello server"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.12"
 dependencies = []
 
 [project.scripts]
-mcp-hello = "mcp_hello.cli:main"
+mcp-hello-world = "mcp_hello.cli:main"

@@ -51,7 +51,7 @@ class TestHelloServer(unittest.TestCase):
         output_buffer.seek(0)
         lines = [json.loads(line) for line in output_buffer.read().splitlines() if line]
         self.assertEqual(lines[0]["type"], "ready")
-        
+
         messages_received = {line.get("result", {}).get("message") for line in lines}
         self.assertIn("Hello, world!", messages_received)
         self.assertIn("pong", messages_received)

@@ -1,5 +1,4 @@
-def main():
-    print("Hello from mcp-hello!")
+from mcp_hello.cli import main
 
 
 if __name__ == "__main__":
